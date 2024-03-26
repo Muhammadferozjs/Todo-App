@@ -16,14 +16,16 @@ for (let i=0;i<arr.length;i++){
     <button onclick = "editTodo(${i})" >edit</button>
     </li>
     `
-
+}
 
 todo.value = ''
 }
 
 function deleteTodo(index){
-    console.log(`delete todo`,index)
-    arr.splice(index,1)
+   
+   ol.innerHTML =''
+   console.log(`delete todo`,index)
+   arr.splice(index,1)
 
   
     for (let i=0;i<arr.length;i++){
@@ -38,7 +40,8 @@ function deleteTodo(index){
 }
 
 function editTodo(index){
-
+    ol.innerHTML =''
+    
     let update = prompt(`enter your updated value`)
     console.log("editTodo",index)
     arr.splice(index,1,update)
@@ -49,12 +52,12 @@ function editTodo(index){
         <button onclick = "editTodo(${i})" >edit</button>
         </li>
         `
-    
+    }
 }
        
 
     
-}
+// }
 
 
 
@@ -70,17 +73,11 @@ function editTodo(index){
         
 // }
 
+// const input1 =document.querySelector("#input1")
+// const input2 =document.querySelector("#input2")
+// const para = document.querySelector("#para")
 
+// function submit(){
 
-
-
-
-
-
-
-
-
-
-
-    
-}
+//      para.innerHTML = `${input1.value} <br> ${input2.value}`
+// }
