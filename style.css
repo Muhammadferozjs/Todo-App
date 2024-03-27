@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(4, 29, 29);
+    font-family: 'poppins' , sans-serif;
+}
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid aqua (6, 145, 145);
+    outline: none;
+    font-size: 17px;
+}
+button{
+    width: 65px;
+    height: 39px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+.text ol{
+    position: relative;
+    background-color:black;
+    color: white;
+    font-size: 19px;
+    text-align: left
+    
+}
+.btn {
+    background-color:brown;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+
+}
+.btn1 {
+    background-color: green;
+    font-size: 15px;
+    border-radius: 15px;
+}

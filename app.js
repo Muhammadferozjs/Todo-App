@@ -12,8 +12,8 @@ function AddTodo(){
 
 for (let i=0;i<arr.length;i++){
     ol.innerHTML += `<li>${arr[i]}
-    <button onclick = "deleteTodo(${i})" >delete</button>
-    <button onclick = "editTodo(${i})" >edit</button>
+    <button onclick = "deleteTodo(${i})" class="btn" >delete</button>
+    <button onclick = "editTodo(${i})" class="btn1" >edit</button>
     </li>
     `
 }
@@ -30,8 +30,8 @@ function deleteTodo(index){
   
     for (let i=0;i<arr.length;i++){
         ol.innerHTML += `<li>${arr[i]}
-        <button onclick = "deleteTodo(${i})" >delete</button>
-        <button onclick = "editTodo(${i})" >edit</button>
+        <button onclick = "deleteTodo(${i})"  class="btn" >delete</button>
+        <button onclick = "editTodo(${i})"  class="btn1">edit</button>
         </li>
          
         `
@@ -48,8 +48,8 @@ function editTodo(index){
 
     for (let i=0;i<arr.length;i++){
         ol.innerHTML += `<li>${arr[i]}
-        <button onclick = "deleteTodo(${i})" >delete</button>
-        <button onclick = "editTodo(${i})" >edit</button>
+        <button onclick = "deleteTodo(${i})" class="btn" >delete</button>
+        <button onclick = "editTodo(${i})" class="btn1" >edit</button>
         </li>
         `
     }
@@ -57,27 +57,6 @@ function editTodo(index){
        
 
     
-// }
 
 
 
-// function render(){
-//     ol.innerHTML = ''
-//     for (let i = 0 ; i < arr.length;i++){
-//         ol.innerHTML += `<li>${arr[i]}
-//         <button onclick = "deleteTodo(${i})" >delete</button>
-//         <button onclick = "editTodo(${i})" >edit</button>
-//         </li>
-//         `
-//     }
-        
-// }
-
-// const input1 =document.querySelector("#input1")
-// const input2 =document.querySelector("#input2")
-// const para = document.querySelector("#para")
-
-// function submit(){
-
-//      para.innerHTML = `${input1.value} <br> ${input2.value}`
-// }
